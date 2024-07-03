@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: rgb(170, 81, 247);
+
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+nav .left{
+    font-size: 28px;
+    margin: 0px 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+main{
+    color: white;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px;
+}
+section .leftsection{
+    width: 30%;
+    
+    font-size: 2.5rem;
+ 
+    display: flex;
+    align-items: center;
+}
+section .rightsection{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    
+}
+section .rightsection img{
+    width: 150%;
+}
+.leftsection .name {
+    color: rgb(194, 142, 241);
+}
+.con .line1{
+    margin-bottom: 20px;
+}
+#element {
+    color: rgb(194, 142, 241);
+}
+.secsection h1{
+    margin-left: 10%;
+    font-size: 1.9rem;;
+}
+main hr{
+    color: rgb(194, 142, 241);
+    margin: 40px 84px;
+}
+
+.secsection .box{
+    background-color: rgb(194, 142, 241);
+
+    height: 1.5px;
+    margin: 65px 162px;
+    display: flex;
+}
+.secsection .box .vertical{
+    background-color:  rgb(194, 142, 241);
+
+    height: 150px;
+    width: 1.5px;
+    margin-right: 300px;
+  
+}
+.secsection .box .vertical .con{
+    font-size: 22px;
+    width: 200px;
+    margin: 5px 3px;
+    font-weight: bold;
+   
+}
+.secsection .box .vertical .desc{
+    width: 200px;
+    margin-top: 90px;
+    color: rgb(194, 142, 241);
+
+}
