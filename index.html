@@ -1,132 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>HTML5/CSS3 Responsive Image Slider</title>
-<style type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
 
-#slider {
-	overflow: hidden;
-}
-#slider figure {
-	position: relative;
-	width: 500%;
-	margin: 0;
-	left: 0;
-	animation: 20s slider infinite;
-}
-#slider figure img {
-	float: left;
-	width: 20%;
-}
-
-@keyframes slider {
-	0% {
-		left: 0;
-	}
-	20% {
-		left: 0;
-	}
-	25% {
-		left: -100%;
-	}
-	45% {
-		left: -100%;
-	}
-	50% {
-		left: -200%;
-	}
-	70% {
-		left: -200%;
-	}
-	75% {
-		left: -300%;
-	}
-	95% {
-		left: -300%;
-	}
-	100% {
-		left: -400%;
-	}
-}
-
-</style>
+    <link rel="stylesheet" href="Style.css">
+    </script>
 </head>
+
 <body>
+    <header>
+        <nav>
+            <div class="left">Anshi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
 
-	<div id="slider">
-		<figure>
-			<img src="img/plant.png">
-			<img src="img/plant2.png">
-			<img src="img/plant3.png">
-			<img src="img/plant4.png">
-			<img src="img/plant.png">
-		</figure>
-	</div>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Me </a></li>
 
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-</body>
-</html>
-
-
-
-
-
-
-<!-- Begin Social Share -->
-<style>
-	.btn:hover {
-		color: white;
-		opacity: .8;
-		transform: scale(1.02);
-	}
-</style>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-lg btn-danger" style="position: absolute; right: 7px; bottom: 7px;transition: transform .3s ease;" data-toggle="modal" data-target="#socialModal">
-  Subscribe!
-</button>
-<!-- Modal -->
-<div class="modal fade" id="socialModal" style="font-family: 'Poppins', sans-serif;">
-  <div class="modal-dialog modal-md" role="document">
-    <div class="modal-content" style="background-color: rgba(255, 255, 255, .9)!important;border: 0;">
-      <div class="modal-header" style="display: none;">
-        <button type="button" class="close" data-dismiss="modal">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-			<div class="modal-body">
-				<div class="container-fluid text-center">
-					<div class="row justify-content-center px-0">
-						<div class="col-12">
-							<h2 class="pt-2 pb-4">Subscribe & turn on notifications! <i class="fas fa-bell"></i></h2>
-						</div>
-						<div class="col-lg-5 my-2">
-							<!-- YOUTUBE CHANNEL -->
-							<a class="btn btn-lg" href="https://www.youtube.com/channel/UCT5mYUgfTseT1axSXiA-ODQ?sub_confirmation=1" target="_blank" style="background-color: red;color: white;transition: transform .3s ease;"><i class="fab fa-youtube"></i> Subscribe
-							</a>
-						</div>
-						<div class="col-12">
-							<h6 class="pt-4 pb-0"><a href="https://w3newbie.com" target="_blank">www.w3newbie.com</a></h6>
-						</div>
-					</div>
-				</div>
-			</div>
-    </div>
-  </div>
-</div>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
-	$(this).delay(5500).queue(function() { /*-- CHANGE DELAY TIME --*/
-		$("#socialModal").modal('show');
-	});
-</script>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div class="con">
+                    <div class="line1">Hi...</div>
+                    <div class="line2"> My name is <span class="name">Anshi </span></div>
+                    <div class="line3">I am a full stack </div>
+                    <span id="element"></span>
+                    <script>
+                        var typed = new Typed('#element', {
+                            strings: ['Web Developer', 'Web Designer', 'Python developer'],
+                            typeSpeed: 50,
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="pic6.webp">
+            </div>
 
         </section>
+        <hr>
+
+
+
+        <section class="secsection">
+            <h1> About<br>
+                <div class="about">
+                    <div class="abouttext">I'm an experienced software engineer who constantly seeks out innovative
+                        solutions to everyday problems. In my seven years in this industry, I've honed my analytical
+                        thinking and collaboration skills, and I love working with a team. I've also had the opportunity
+                        to serve as the software engineer lead for three projects with First Technology.</div>
+                </div>
+            </h1>
+            <h1>
+                Work experiences
+            </h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="con">Web<br> Developer Intern</div>
+                    <div class="desc">Worked at SVT India Pvt Ltd. for about Two months in May-July 2024</div>
+                </div>
+
+                <div class="vertical">
+                    <div class="con">Web <br> Developer Intern</div>
+                    <div class="desc">Worked at Oasis Infobyte for about one month in May 2023</div>
+                </div>
+
+                <div class="vertical">
+                    <div class="con">Full Stack Web Developer </div>
+                    <div class="desc">Worked at Internpe for about one month in May 2023</div>
+
+
+                </div>
+
+                <div class="vertical">
+                    <div class="con">GirlScript Summer of Code</div>
+                    <div class="desc">Worked as an open Source Contributor</div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <section class="services">
+            <div>
+                <h1 class="shead">Services</h1>
+
+                <div id="slider">
+                    <figure>
+                        <div class="slider1"><img src="bg1.jpg">
+                            <div class="centertext">
+                                <p class="serviceh">Specialized development</p>
+                                <p class="contentservice"> If your project requires expertise in a specific area, like
+                                    e-commerce development using complex frameworks, or building a content management
+                                    system (CMS) from scratch, you can outsource that part to a company specializing in
+                                    that area. This can free you up to focus on your core strengths or other aspects of
+                                    the project.</p>
+                            </div>
+                        </div>
+
+                                <div class="slider2"><img src="bg1.jpg">
+                                    <div class="centertext">
+                                        <p class="serviceh">Testing and Quality Assurance (QA)</p>
+                                        <p class="contentservice"> Having a fresh pair of eyes test your website for bugs and usability issues is essential. A QA service can provide an unbiased evaluation and identify areas for improvement.</p>
+                                    </div>
+                                </div>
+                                        <div class="slider3"><img src="bg1.jpg">
+                                            <div class="centertext">
+                                                <p class="serviceh">Design and User Experience (UX)</p>
+                                                <p class="contentservice"> Having a strong visual design and a user-friendly experience is crucial for any website. If design isn't your forte, you can collaborate with a web design or UX design agency to create a polished and user-centric website.</p>
+                                            </div>
+                                        </div>
+                                                <div class="slider4"><img src="bg1.jpg">
+                                                    <div class="centertext">
+                                                        <p class="serviceh">Development Tools and Automation</p>
+                                                        <p class="contentservice">  There are services that offer development tools and automation functionalities. These can help streamline your workflow, improve efficiency, and reduce the time spent on repetitive tasks.</p>
+                                                    </div>
+                                                </div>
+                                                        <div class="slider5"><img src="bg1.jpg">
+                                                            <div class="centertext">
+                                                                <p class="serviceh">Deployment and Maintenance:</p>
+                                                                <p class="contentservice"> Once your website is built, you'll need to deploy it to a web server and maintain it over time. Web development services can handle these tasks, freeing you up to focus on new projects.</p>
+                                                            </div>
+                                                        </div>
+
+
+
+
+                    </figure>
+                </div>
+            </div>
+        </section>
+
     </main>
+
 </body>
 
 </html>
